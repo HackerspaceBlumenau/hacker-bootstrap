@@ -3,7 +3,6 @@ A Bootstrap theme for 31337 H4X0RS
 by Tobin Brown, 2015
 */
 
-
 // Hacker Colors
 @hacker: #00ff00;
 @hacker-bg: #222222;
@@ -28,8 +27,8 @@ by Tobin Brown, 2015
 // Scaffolding
 @body-bg:                   @hacker-bg;
 @text-color:                @gray-dark;
-@link-color:                @brand-primary;
-@link-hover-color:          darken(@link-color, 15%);
+@link-color:                lighten(@brand-primary, 20%);
+@link-hover-color:          lighten(@link-color, 10%);
 @padding-base-vertical:     6px;
 @padding-base-horizontal:   12px;
 @padding-large-vertical:    10px;
@@ -45,9 +44,9 @@ by Tobin Brown, 2015
 
 
 // Typography
-@font-family-sans-serif:    Monospace;
-@font-family-serif:         Monospace;
-@font-family-monospace:     Monospace;
+@font-family-sans-serif:    "Inconsolata";
+@font-family-serif:         "Inconsolata";
+@font-family-monospace:     "Inconsolata";
 @font-family-base:          @font-family-monospace;
 @font-size-base:            14px;
 @font-size-large:           ceil(@font-size-base * 1.25);
